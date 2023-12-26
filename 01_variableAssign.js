@@ -1,0 +1,22 @@
+var myFullName;
+console.log(myFullName);
+myFullName="Aayesha Shaikh";
+console.log("Name:",myFullName);
+myFullName="Aayesha Hajimalang Shaikh";
+console.log("Full Name:",myFullName);
+var mylove="i love only JS";
+console.log(mylove);
+var firstName="Aayesha"
+console.log("FirstName:",firstName);
+var lastName="Shaikh";
+console.log("LastName:",lastName);
+var age="24";
+console.log("Age:",age);
+var address="Korti,Pandharpur";
+console.log("Address:",address);
+var pinCode="413304";
+console.log("Pincode:",pinCode);
+var gender="Female";
+console.log("Gender:",gender);
+var ismarried="single";
+console.log("Marital Status:",ismarried);
