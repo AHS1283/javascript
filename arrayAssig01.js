@@ -1,0 +1,25 @@
+
+const fruits_Seasonal=["Banana","orange","Apple","Mango","Water Melon"];
+console.log(fruits_Seasonal);
+console.log(`===================Step 1========================`);
+console.log("First Element:",fruits_Seasonal[0]);
+console.log("Last Element:",fruits_Seasonal[fruits_Seasonal.length-1]);
+console.log(`===================Step 2========================`);
+fruits_Seasonal.unshift("papaya");
+console.log(`Array After adding papaya:`,fruits_Seasonal);
+console.log(`===================Step 3========================`);
+fruits_Seasonal.splice(fruits_Seasonal.indexOf("Mango"),1);
+console.log(`Array After removing Mango :`,fruits_Seasonal);
+console.log(`===================Step 4========================`);
+fruits_Seasonal.push("pineapple");
+console.log(`Array after adding pineapple:`,fruits_Seasonal);
+console.log(`===================Step 5========================`);
+fruits_Seasonal.splice(fruits_Seasonal.indexOf("Water Melon"),0,"Dragon fruit");
+console.log(`Array after inserting Dragon fruit`,fruits_Seasonal);
+console.log(`===================Step 6========================`);
+fruits_Seasonal[fruits_Seasonal.indexOf("Orange")]="Kiwi";
+console.log(`Array after replacing orange with kiwi:`,fruits_Seasonal);
+console.log(`===================Step 7========================`);
+console.log('Elements from index 1 to 4:',fruits_Seasonal.slice(1,5));
+console.log(`===================Step 8========================`);
+console.log(`Last 3 elements:`,fruits_Seasonal.slice(-3));
